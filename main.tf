@@ -1,13 +1,13 @@
 variable "sleep_length_plan" {
-  type    = number
-  default = 0
-  description = "Desired plan length."
+  type    = string
+  default = "0"
+  description = "Desired plan length. A string acceptable to the sleep command."
 }
 
 variable "sleep_length_apply" {
-  type    = number
-  default = 0
-  description = "Desired apply length."
+  type    = string
+  default = "0"
+  description = "Desired apply length. A string acceptable to the sleep command."
 }
 
 data "external" "sleep" {
