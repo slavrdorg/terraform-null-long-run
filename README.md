@@ -10,3 +10,4 @@ The available input variables are listed in the table below.
 | -------- | ---- | ------- | ----------- |
 | sleep_length_plan | `number` | `0` | Desired plan length. A string acceptable to the sleep command.|
 | sleep_length_apply | `number` | `0` | Desired apply length. A string acceptable to the sleep command.|
+
